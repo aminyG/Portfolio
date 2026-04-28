@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import datamodel from "../../Assets/Projects/datamodel.png";
 import presence from "../../Assets/Projects/presence.png";
 import sales from "../../Assets/Projects/sales.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import hcr from "../../Assets/Projects/hcr.png";
 import coffee from "../../Assets/Projects/coffee.png";
 
