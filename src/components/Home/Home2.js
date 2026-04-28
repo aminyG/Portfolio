@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatarr.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,38 +13,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m an Information Technology graduate who enjoys building systems
+              and working with data to solve real-world problems. I have
+              experience in developing simple web applications and handling data
+              to generate useful insights.
               <br />
               <br />
-              I’m proficient in
+              I’m familiar with
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, Web Development, Basic Data Processing, System
+                  Design,{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              and I’m comfortable exploring both technical implementation and
+              analytical thinking.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, Data-Driven Solutions,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and understanding how systems and data can be used to identify
+              issues, improve processes, and support better decision-making.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I’m still growing, but I’m eager to learn, try new things, and
+              improve both my technical and analytical skills over time.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
