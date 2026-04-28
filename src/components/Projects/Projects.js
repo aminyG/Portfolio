@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import datamodel from "../../Assets/Projects/datamodel.png";
+import presence from "../../Assets/Projects/presence.png";
+import sales from "../../Assets/Projects/sales.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import hcr from "../../Assets/Projects/hcr.png";
+import coffee from "../../Assets/Projects/coffee.png";
 
 function Projects() {
   return (
@@ -23,68 +23,51 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={sales}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Retail Product Sales Analysis"
+              description="Analyzed retail product sales data using Excel to identify top-performing products and sales trends. Built interactive dashboards with pivot tables and charts to monitor performance. Generated insights on customer purchasing patterns and provided data-driven recommendations to improve sales and inventory management."
+              demoLink="https://shorturl.at/wvESn"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={hcr}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="HCR & OCR Performance Web App"
+              description="Developed a web-based application to process and analyze organizational data. Built dashboards to visualize key performance metrics and support decision-making. Improved data accessibility and monitoring through structured and user-friendly interfaces."
+              ghLink="https://github.com/aminyG/ocrplnnp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={presence}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Electronic Attendance System"
+              description="Built a cross-platform attendance system using Flutter and Laravel. Implemented face recognition for automated identity verification and attendance logging. Designed role-based access control for multi-level system management."
+              ghLink="https://github.com/aminyG/thesis"
+              demoLink="https://www.figma.com/design/BNddemNESX46FPPVO6cyYQ/absensi?node-id=0-1&m=dev&t=Nt23PKj6kSpqZzvf-1"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={datamodel}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Minimarket Data Modeling"
+              description="Designed data models for a minimarket business scenario by analyzing product and transaction flows. Structured relationships between products, customers, and transactions to support inventory and sales processes."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={coffee}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Coffeeshop Website"
+              description="Developed a website to support product display and ordering process. Organized menu and product information to improve user experience and support basic business operations digitally."
+              ghLink="https://github.com/aminyG/coffee"
             />
           </Col>
         </Row>
